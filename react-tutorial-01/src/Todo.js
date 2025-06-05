@@ -6,7 +6,7 @@ const Todo = ({todo}) => {
       <label>
         <input type="checkbox" checked={todo.completed} readOnly />
       </label>
-      {todo.id}
+      {todo.name}
     </div>
   )
 }
